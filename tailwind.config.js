@@ -18,6 +18,12 @@ module.exports = {
         300: "#4f5b45",
       },
     },
+    screens: {
+      sm: "480px",
+      md: "768px",
+      lg: "976px",
+      xl: "1440px",
+    },
     extend: {},
   },
   plugins: [],
