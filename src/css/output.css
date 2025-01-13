@@ -566,6 +566,10 @@ video {
   margin: auto;
 }
 
+.m-4 {
+  margin: 1rem;
+}
+
 .my-3 {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
@@ -728,6 +732,10 @@ video {
   padding: 0.5rem;
 }
 
+.p-4 {
+  padding: 1rem;
+}
+
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -739,6 +747,10 @@ video {
 
 .pr-3 {
   padding-right: 0.75rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .align-middle {
