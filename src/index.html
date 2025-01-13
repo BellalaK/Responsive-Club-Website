@@ -36,8 +36,8 @@
       </div>
     </header>
     <main class="bg-green-100 text-green-300 grid-flow-col text-xl">
-      <div>
-        <div id="Home" class="p-3">
+      <div class="md:flex p-3">
+        <div id="Home" class="p-3 md:w-[50%] md:m-auto">
           <h1 class="text-center font-bold">Welcome to Our Community</h1>
           <p class="text-center w-[75%] justify-center mx-auto">
             Sage is Southern Methodist University's premier LGBTQ+ social
@@ -45,10 +45,12 @@
             to connect, celebrate, and thrive.
           </p>
         </div>
-        <img
-          class="hidden lg:content w-full"
-          src="https://images.pexels.com/photos/1148572/pexels-photo-1148572.jpeg?auto=compress&cs=tinysrgb&w=1440&h=150&dpr=2"
-        />
+        <div class="md:w-[50%] md:m-auto">
+          <img
+            class="hidden md:block md:w-[75%] md:m-auto md:border-green-300 md:border-4"
+            src="https://images.pexels.com/photos/1148572/pexels-photo-1148572.jpeg?auto=compress&cs=tinysrgb&w=1440&h=150&dpr=2"
+          />
+        </div>
       </div>
       <div id="About" class="p-3">
         <h1 class="text-center font-bold">Who We Are</h1>
